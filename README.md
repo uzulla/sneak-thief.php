@@ -2,6 +2,7 @@
 
 - `sneak_theaf.php` sample of full set.
 - `steal-cookie.php` sample for cookie.
+- `steal-session.php` sample for session.
 - `old_skool.php` just a sample target app.
 
 ## How to use.
