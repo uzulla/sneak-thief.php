@@ -40,7 +40,7 @@ unset($global_vars['_REQUEST']);
         $____goods + [
             'after_session' => $_SESSION,
             'response_body' => $____output,
-            'response_header' => apache_response_headers(), // could be get new-cookie from here.
+            'response_header' => headers_list(), // could be get new-cookie from here.
             'global_values' => $global_vars,
         ],
         JSON_UNESCAPED_UNICODE
